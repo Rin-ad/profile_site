@@ -11,6 +11,7 @@ body {
     font-family: 'Inter','Noto Sans JP',sans-serif;
     width: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: aliceblue;
@@ -24,6 +25,7 @@ body {
     overflow: hidden;
     max-width: 850px;
     background-color: #fff;
+    color: #555;
     border-radius: 8px;
     width: 80%;
     box-shadow: 0px 0px 16px -4px rgba(0, 0, 0, 0.33);
@@ -173,7 +175,7 @@ body {
     display: inline-block;
     width: 20px;
     height: 2px;
-    background-color: #000;
+    background-color: #555;
     -webkit-transform: rotate(60deg);
     transform: rotate(60deg);
     left: 0;
@@ -186,7 +188,7 @@ body {
     display: inline-block;
     width: 20px;
     height: 2px;
-    background-color: #000;
+    background-color: #555;
     -webkit-transform: rotate(-60deg);
     transform: rotate(-60deg);
     right: 0;
@@ -237,6 +239,19 @@ body {
 
 .site_btn>i {
     margin-right: 4px;
+}
+
+/* フッター */
+
+.footer {
+    margin-top: 1em;
+    font-family: 'JetBrains Mono',monospace;
+    text-align: center;
+    padding: 1em 2em;
+    color: #888;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.11);
+    background-color: #fff;
+    border-radius: 8px;
 }
 
 /* かるくレスポンシブ対応 */
