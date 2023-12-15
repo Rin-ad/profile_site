@@ -264,6 +264,9 @@ body {
     .profile_icon>img {
         width: 150px;
     }
+    .site {
+        padding: 1em;
+    }
     body {
         padding: 1em 0;
     }
