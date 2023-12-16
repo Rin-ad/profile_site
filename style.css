@@ -204,7 +204,7 @@ body {
 }
 
 .site {
-    padding: 1em 0;
+    padding: 1em;
     border-radius: 6px;
     background-color: rgba(1, 170, 182, 0.589);
     color: #fff;
@@ -239,6 +239,46 @@ body {
 
 .site_btn>i {
     margin-right: 4px;
+}
+
+/* 線 */
+
+.under {
+    border-bottom: 2px dashed #ccc;
+}
+
+/* 好きな動画とか */
+
+.favo_content {
+    display: flex;
+    gap: 0.8em;
+    padding: 1em;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.favo_content>iframe {
+    border-radius: 8px;
+    width: 100%;
+    max-width: 500px;
+    aspect-ratio: 16/9;
+}
+
+.album {
+    text-decoration: none;
+    padding: 1em;
+    border-radius: 8px;
+    background-color: #01aab6;
+    color: #fff;
+    display: inline-block;
+}
+
+.album::before {
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    content: '\f8d9';
+    margin-right: 8px;
 }
 
 /* フッター */
